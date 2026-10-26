@@ -1,0 +1,25 @@
+{
+  "freshness": {
+    "freshness_accuracy": 1.0,
+    "n": 12
+  },
+  "factuality": {
+    "factuality": 1.0,
+    "n": 12
+  },
+  "hallucination": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "tp": 4,
+    "fp": 0,
+    "tn": 4,
+    "fn": 0
+  },
+  "calibration": {
+    "ece": 0.1016,
+    "mean_confidence": 0.8984,
+    "mean_accuracy": 1.0
+  }
+}
